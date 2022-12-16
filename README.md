@@ -1,6 +1,7 @@
 # Male-Female-Classifier
 In this project, I will explore the Male and Female Dataset scrapped from multiple e-commerce websites and build a model that can predict their corresponding gender.<br />
 ### You need to scrap Images for dataset by using scrapper.py.
+## INSTRUCTIONS
 ### This project requires the following libraries :
 •	[Torch(Pytorch)](https://pytorch.org/docs/stable/index.html)<br />
 •	[Numpy](https://numpy.org/)<br />
@@ -10,13 +11,16 @@ In this project, I will explore the Male and Female Dataset scrapped from multip
 •	[Matplotlib](https://matplotlib.org/stable/index.html)<br />
 •	[Os](https://python.readthedocs.io/en/stable/library/os.html)<br />
 
-Please ensure you have installed the following libraries mentioned above before continuing.<br />
+### Please ensure you have installed the following libraries mentioned above before continuing.<br />
 
-### INSTRUCTION TO CHECK PREDICTION
+## HOW TO CHECK PREDICTION
 
-To check predictions Extract all files in one folder.<br />
-Run CMD in that directory and type<br />
+To check predictions Extract all files in one folder.<br /><br />
+Run CMD in that directory and type: python prediction.py --img_root "path" <br /><br />
 Eg: python prediction.py --img_root "C:/user/data/img.jpg"<br /><br />
+An Image will be open in another windows with prediction printed on it.<br /><br />
+
+## Results
 
 | Training Result  | Validation Result |
 | ------------- | ------------- |
