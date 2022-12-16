@@ -1,5 +1,6 @@
 # Male-Female-Classifier
 In this project, I will explore the Male and Female Dataset scrapped from multiple e-commerce websites and build a model that can predict their corresponding gender.<br />
+### You need to scrap Images for dataset by using scrapper.py.
 ### This project requires the following libraries :
 •	[Torch(Pytorch)](https://pytorch.org/docs/stable/index.html)<br />
 •	[Numpy](https://numpy.org/)<br />
