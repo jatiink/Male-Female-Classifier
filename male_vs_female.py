@@ -64,10 +64,10 @@ test_transform = transforms.Compose([transforms.ToTensor(),
                                      transforms.Normalize([0.5, 0.5, 0.5],
                                                           [0.5, 0.5, 0.5])])
 
-board = SummaryWriter("C:/Users/jatin/Desktop/Study/Data/boards1")
+board = SummaryWriter("board")
 
-train_txt = r"C:\Users\jatin\Desktop\Study\My files\projects\imgs_data.txt"
-test_txt = r"C:\Users\jatin\Desktop\Study\My files\projects\test_data.txt"
+train_txt = "train_data.txt"
+test_txt = "test_data.txt"
 
 train_data = MyDataset(train_txt, train_transform)
 test_data = MyDataset(test_txt, test_transform)

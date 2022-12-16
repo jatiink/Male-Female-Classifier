@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.options import Options
 from termcolor import colored
 import time
 
-driver_path = r"C:\Users\jatin\Desktop\Study\Data\chromedriver.exe"  # Put driver path here
+driver_path = r"chromedriver.exe"  # Put driver path here
 
 
 def getImageUrlsFromProductLink(p_url, product_id, save_path, headers):
