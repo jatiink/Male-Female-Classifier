@@ -1,6 +1,8 @@
 # Male-Female-Classifier
 In this project, I will explore the Male and Female Dataset scrapped from multiple e-commerce websites and build a model that can predict their corresponding gender.<br />
+I used Tensorboard for live results of training and validation.
 ### You need to scrap Images for dataset by using scrapper.py.
+### Note: It will work only on models images(fashion models) because this model trained on images scrapped from e-commerce websites.
 ## INSTRUCTIONS
 ### This project requires the following libraries :
 •	[Torch(Pytorch)](https://pytorch.org/docs/stable/index.html)<br />
@@ -10,6 +12,7 @@ In this project, I will explore the Male and Female Dataset scrapped from multip
 •	[Selenium](https://selenium-python.readthedocs.io/)<br />
 •	[Matplotlib](https://matplotlib.org/stable/index.html)<br />
 •	[Os](https://python.readthedocs.io/en/stable/library/os.html)<br />
+• [torch.utils.tensorboard](https://www.tensorflow.org/tensorboard/get_started)<br />
 
 ### Please ensure you have installed the following libraries mentioned above before continuing.<br />
 
