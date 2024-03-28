@@ -5,13 +5,13 @@ I used Tensorboard for live results of training and validation.
 ### Note: It will work only on models images(fashion models) because this model trained on images scrapped from e-commerce websites.
 ## INSTRUCTIONS
 ### This project requires the following libraries :
+•	[Os](https://python.readthedocs.io/en/stable/library/os.html)<br />
 •	[Torch(Pytorch)](https://pytorch.org/docs/stable/index.html)<br />
 •	[Numpy](https://numpy.org/)<br />
 •	[Cv2(OpenCV)](https://docs.opencv.org/4.x/)<br />
 • [Requests](https://requests.readthedocs.io/en/latest/)<br />
 •	[Selenium](https://selenium-python.readthedocs.io/)<br />
 •	[Matplotlib](https://matplotlib.org/stable/index.html)<br />
-•	[Os](https://python.readthedocs.io/en/stable/library/os.html)<br />
 • [torch.utils.tensorboard](https://www.tensorflow.org/tensorboard/get_started)<br />
 
 ### Please ensure you have installed the following libraries mentioned above before continuing.<br />
